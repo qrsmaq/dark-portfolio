@@ -15,13 +15,14 @@ import {
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
-  <Section>
+  <Section id="technologies">
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web development world.
-      From back-end to design
+      I've worked with a range of technologies in the web development world from
+      back-end to design. For passion projects I usually reach for the following
+      tools.
     </SectionText>
     <List>
       <ListItem>
@@ -29,9 +30,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with
-            <br />
-            React.js
+            React.js <br /> Vanilla JavaScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -40,9 +39,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with
-            <br />
-            Node.js MongoDB SQL PostreSQL
+            Node.js <br /> Express <br /> MongoDB <br /> SQL <br /> PostreSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -51,9 +48,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with
-            <br />
-            Adobe Suite and Figma
+            Adobe Suite <br /> Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
