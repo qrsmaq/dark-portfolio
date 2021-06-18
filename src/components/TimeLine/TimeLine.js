@@ -1,16 +1,3 @@
-import React, { useState, useRef, useEffect } from "react";
-
-import {
-  CarouselButton,
-  CarouselButtonDot,
-  CarouselButtons,
-  CarouselContainer,
-  CarouselItem,
-  CarouselItemImg,
-  CarouselItemText,
-  CarouselItemTitle,
-  CarouselMobileScrollNode,
-} from "./TimeLineStyles";
 import {
   Section,
   SectionDivider,
@@ -46,13 +33,15 @@ const Timeline = () => {
             contentArrowStyle={{
               borderRight: "7px solid  rgba(33, 150, 243, .)",
             }}
-            date={item.year}
+            date={item.title}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon=""
           >
-            <h3 className="vertical-timeline-element-title">{item.title}</h3>
+            <h3 className="vertical-timeline-element-title">
+              {item.cardTitle}
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              {item.description}
+              {item.cardDetailedText}
             </h4>
           </VerticalTimelineElement>
         ))}
