@@ -33,11 +33,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         Started as a chef, now I'm here and for good reason. I have two
-        passions; cooking and coding. After working seven years as a chef, while
-        dabbling in basic coding, I noticed that I dreaded going to work but
-        enjoyed my coding side projects. So, eventually, I got enough courage to
-        make sacrifices that would allow me to pursue software development while
-        working full time.
+        passions; cooking and coding.
       </SectionText>
       <VerticalTimeline>
         {TimeLineData.map((item, index) => (
