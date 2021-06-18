@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+import UserAvatar from "react-user-avatar";
 
 import {
   Container,
@@ -25,7 +25,7 @@ const Header = () => (
             marginBottom: "20px",
           }}
         >
-          <DiCssdeck size="3rem" /> <Span>CM</Span>
+          <UserAvatar size="96" name="Christian Mack" src="images/selfie.JPG" />
         </a>
       </Link>
     </Div1>

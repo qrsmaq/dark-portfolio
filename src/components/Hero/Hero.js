@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 import {
   Section,
@@ -14,10 +15,21 @@ const Hero = (props) => (
       <SectionTitle main center>
         Hi!
         <br />
-        My name is Christian Mack.
+        I'm Christian Mack.
       </SectionTitle>
-      <SectionText>
-        I'm a Full Stack Developer based in the SF Bay Area
+      <SectionText className="typing">
+        <Typewriter
+          options={{
+            strings: [
+              "Full Stack Developer",
+              "Culinary Trained Foodie",
+              "Gardening Enthusiast",
+            ],
+            autoStart: true,
+            loop: true,
+            changeDelay: 0,
+          }}
+        />
       </SectionText>
       <a href="images/resume.pdf" download="ChristianMack-Resume">
         <Button>Resume</Button>
