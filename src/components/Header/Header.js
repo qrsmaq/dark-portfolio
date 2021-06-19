@@ -22,10 +22,9 @@ const Header = () => (
             display: "flex",
             alignItems: "center",
             color: "white",
-            marginBottom: "20px",
           }}
         >
-          <UserAvatar size="96" name="Christian Mack" src="images/selfie.JPG" />
+          <UserAvatar size="48" name="Christian Mack" src="images/selfie.JPG" />
         </a>
       </Link>
     </Div1>
