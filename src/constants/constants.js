@@ -49,9 +49,9 @@ export const TimeLineData = [
   },
   {
     title: 2012,
-    cardTitle: "Culinary School",
+    cardTitle: "Le Cordon Bleu",
     cardDetailedText:
-      "After graduating high school and spending a few years aimlessly attending a community college and trying to find my place in the workforce, I realized that I was spinning my wheels. I needed a career. I loved cooking and coding but there weren't many part time learning options. So I went the chef route. I started working in the industry a few months after I started attending Le Cordon Bleu.",
+      "I graduated high school and spent a few years aimlessly attending my local community college and trying to find my place in the workforce. Eventually I realized that I was spinning my wheels at dead end jobs. I needed a career. I was only passionate about two things; cooking and coding. For coding there weren't many part time learning options nor financial aid so I went the chef route. I was working in the industry only a few months after starting culinary school.",
   },
   {
     title: 2019,
@@ -68,7 +68,8 @@ export const TimeLineData = [
   },
   {
     title: 2021,
-    cardTitle: "Covid Job Search",
-    cardDetailedText: "",
+    cardTitle: "A new beginning",
+    cardDetailedText:
+      "I've learned a lot about myself on this journey.  I'm humbled by the sheer amount of effort it's taken while inspired by the fact that I've achieved a goal I once thought impossible. It's only up from here.",
   },
 ];
